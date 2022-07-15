@@ -1,0 +1,46 @@
+.grid{
+    width: 400px;
+    height: 600px;
+    background: url("img/doodle jump.png");
+    /* margin-left: 30%; */
+    position: relative;
+    /* position: absolute; */
+    padding: 5px;
+    z-index: 5;
+}
+
+button{
+    cursor: pointer;
+    font-family: 'Indie Flower', cursive;
+    font-weight: 400;
+    margin-top: 200px;
+    margin-left: 170px;
+    position: absolute;
+    border-color: #413429;
+    color: #413429;
+    top: 100px;
+    font-size: 35px;
+    width: 160px;
+    height: 80px;
+    padding: 10px;
+    border-radius: 45%;
+    /* background: url("img/background.png"); */
+    background-color: rgba(241, 229, 212, 0);
+    z-index: 0;
+}
+
+/* h1{
+    font-family: 'Indie Flower', cursive;
+    margin-left: 10%;
+    margin-top: 30%;
+    margin-bottom: 0px;
+    font-size: 50px;
+    color: #A40000 ;
+    transform: rotate(-10deg);
+} */
+
+/* #jump{
+    margin-top: 5px;
+    margin-left: 31%;
+    font-size: 50px;
+} */

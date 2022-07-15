@@ -1,0 +1,86 @@
+.grid{
+    width: 400px;
+    height: 600px;
+    background: url("img/background.png");
+    position: relative;
+    padding: 5px;
+    z-index: 5;
+}
+
+.platform{
+    width: 100px;
+    height: 17px;
+    background: url("img/platform.png");
+    background-size: 100%;
+    position: absolute;
+}
+
+.doodler{
+    width: 87px;
+    height: 85px;
+    background: url("img/doodler-guy.png");
+    position: absolute;
+    z-index: 6;
+}
+
+h1{
+    font-family: 'Indie Flower', cursive;
+    margin-left: 19%;
+    margin-top: 40%;
+    font-size: 50px;
+    color: #A40000 ;
+}
+
+h3{
+    font-family: 'Indie Flower', cursive;
+    margin-left: 19%;
+    font-size: 25px;
+    color: #413429;
+}
+
+#pButton{
+    cursor: pointer;
+    font-family: 'Indie Flower', cursive;
+    font-weight: 400;
+    margin-top: 250px;
+    margin-left: 80px;
+    position: absolute;
+    border-color: #413429;
+    color: #413429;
+    top: 100px;
+    font-size: 20px;
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    border-radius: 45%;
+    background: url("img/background.png");
+    z-index: 0;
+}
+
+#stop{
+    border: none;
+    background-image: url("img/pause.png");
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    background-size: 100% 100%;
+    width: 30px;
+    height: 30px;
+    margin-top: 560px;
+    margin-left: 50px;
+    cursor: pointer;
+    z-index: 5;
+}
+
+#aud{
+    background-image: url("img/withaudio.png");
+    border: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    background-size: 100% 100%;
+    width: 30px;
+    height: 30px;
+    margin-top: 560px;
+    margin-left: 7px;
+    cursor: pointer;
+    z-index: 5;
+}
