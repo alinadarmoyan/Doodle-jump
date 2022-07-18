@@ -241,6 +241,7 @@ function start()
         clicked++;
         if (clicked % 2) 
         {
+            removeEventListener("keyup", control);
             pause.style.backgroundImage = "url(img/startimg.png)";
             stop(movePlats);
             stop(doodFall);
@@ -249,7 +250,8 @@ function start()
             stop(intervalRight);
         }
         else
-        {
+        {    
+            addEventListener("keyup", control);
             pause.style.backgroundImage = "url(img/pause.png)";
             movePlatforms();
             fall();
