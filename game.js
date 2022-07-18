@@ -259,47 +259,4 @@ function start()
     })
 }
 
-
-
-
-
-
-
-
-// let arr = [];
-// for (let i = 0; i < 10; i++) 
-// {
-//     arr[i] = i;
-//     console.log(arr[i]);
-// }
-
-
-
-// let fruits = [15, 'lemon', 'orange'];
-// fruits.forEach(item => console.log(item * 10));
-
-
-// function print() 
-// {
-//     for (let i = 0; i < fruits.length; i++) 
-//     {
-//         console.log(fruits[i]);        
-//     }    
-// }
-
-// print();
-
-
-// function esim()
-// {
-//     console.log("barev");
-//     console.log('5 + 5');
-    
-// }
-
-// setInterval(esim, 1000);
-
-
-
-
 start();
